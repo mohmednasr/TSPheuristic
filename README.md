@@ -1,9 +1,9 @@
 # TSPheuristic
-Implemented heuristics algorithms to solve Travel Sales Problem 
+Implemented heuristics algorithms to solve Travel Salesman Problem 
 
 This file contains the implementation of three algorithms 
 (Nearest Neighbour Heuristic, Extend Nearest Neighbour Heuristic,
- and Greedy Heuristic)  to solve the Traveling Sales Problem.
+ and Greedy Heuristic)  to solve the Traveling Salesman Problem.
 
 The implementation of Nearest Neighbour Heuristic on the file "NNH.cpp"
 The implementation of Extend Nearest Neighbour Heuristic on the file "ENNH.cpp"
