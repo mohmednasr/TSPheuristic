@@ -47,9 +47,9 @@ int main()
     }
 
     // implement Nearest Heursitics Algorithm
-    vector<int> v_r;   //vector to contain the vertices remaining to our path
+    vector<int> v_r;   //vector to contain the vertices remaining to our path as out-degree
     //
-    vector<int> v_c;   //vector to contain the vertices remaining to our path
+    vector<int> v_c;   //vector to contain the vertices remaining to our path as in-degree
     //
     vector<int> p;   //vector to contain the vertices for our path
 
@@ -124,7 +124,7 @@ int main()
              //print the path on the screen
 
             cout<< "\n The path with Greedy Heuristic Algorithm : ";
-            for(int i:p)
+            for(int i:p){
             cout << i+1 << " ";
             cout << endl;
 }    
