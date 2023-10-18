@@ -47,9 +47,9 @@ int main()
     }
 
     // implement Nearest Heursitics Algorithm
-    vector<int> v_r;   //vector to contain the vertices remaining to our path as out-degree
+    vector<int> v_r;   //vector to contain the remaining vertices to our path as out-degree
     //
-    vector<int> v_c;   //vector to contain the vertices remaining to our path as in-degree
+    vector<int> v_c;   //vector to contain the remaining vertices to our path as in-degree
     //
     vector<int> p;   //vector to contain the vertices for our path
 
